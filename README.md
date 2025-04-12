@@ -1,4 +1,4 @@
-# Indian House Price Prediction
+# House Price Prediction
 A regression based project for predicting house 🏠 price💲.
 
 ## Project objective
