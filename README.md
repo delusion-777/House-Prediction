@@ -20,7 +20,7 @@ This is an Indian house price predicting regression based project.
 Dataset can be downloaded from [kaggle](https://www.kaggle.com/anmolkumar/house-price-prediction-challenge/tasks?taskId=2304)
 
 ### ⚡Exploratory data analysis
-- First, the data set is checked for any missing or null values. If there's any any, then they are either dropped or replaced with mean or median as per analysis.
+- First, the data set is checked for any missing or null values. If there's any, then they are either dropped or replaced with the mean or median as per analysis.
 
 - We can see that of all the features, **Area** has maximum influence on the target variable i.e **price**.
 - Then we analyse the categorical variables.
