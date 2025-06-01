@@ -28,7 +28,7 @@ Dataset can be downloaded from [kaggle](https://www.kaggle.com/anmolkumar/house-
 <img width = "400" src = "https://github.com/Dipankar-Medhi/House_Price_prediction/blob/main/property.jpg" > <img width = "450" src = "https://github.com/Dipankar-Medhi/House_Price_prediction/blob/main/categorical_features.jpg" >
 
 - Then we remove the outliers.
-- Visualizing the area feature using boxplot.
+- Visualizing the area feature using a boxplot.
 
 <img width="500" src = "https://github.com/Dipankar-Medhi/House_Price_prediction/blob/main/area.jpg" >
 
@@ -38,13 +38,13 @@ Dataset can be downloaded from [kaggle](https://www.kaggle.com/anmolkumar/house-
 ![correlation](https://github.com/Dipankar-Medhi/House_Price_prediction/blob/main/heatmap.jpg)
 
 ### ⚡Data preprocessing
-- The features that has the maximum influence on the target variable (price) are considered, and the rest all are dropped.
+- The features that have the maximum influence on the target variable (price) are considered, and the rest all are dropped.
 - Then the outliers are removed using the IQR(Interquantile Range) method. 
 - The dataset is then scaled using StandardScaler.
 - And dataset is split into train and test sets using the train_test_split method.
 
 ### ⚡Model training and evaluation
-- Using sklearn to train the model on the training dataset and testing on the test dataset.
+- Using sklearn to train the model on the training dataset and test on the test dataset.
 - Metrics used: RMSE for evaluation of the model.
 
 
