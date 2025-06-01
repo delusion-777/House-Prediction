@@ -39,7 +39,7 @@ Dataset can be downloaded from [kaggle](https://www.kaggle.com/anmolkumar/house-
 
 ### ⚡Data preprocessing
 - The features that has the maximum influence on the target variable (price) are considered and rest all are dropped.
-- Then the outliers are removed using IQR(Interquantile Range) method. 
+- Then the outliers are removed using the IQR(Interquantile Range) method. 
 - The dataset is then scaled using StandardScaler.
 - And dataset is split into train and test sets using train_test_split method.
 
