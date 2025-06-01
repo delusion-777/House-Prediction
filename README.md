@@ -38,13 +38,13 @@ Dataset can be downloaded from [kaggle](https://www.kaggle.com/anmolkumar/house-
 ![correlation](https://github.com/Dipankar-Medhi/House_Price_prediction/blob/main/heatmap.jpg)
 
 ### ⚡Data preprocessing
-- The features that has the maximum influence on the target variable (price) are considered and rest all are dropped.
+- The features that has the maximum influence on the target variable (price) are considered, and the rest all are dropped.
 - Then the outliers are removed using the IQR(Interquantile Range) method. 
 - The dataset is then scaled using StandardScaler.
-- And dataset is split into train and test sets using train_test_split method.
+- And dataset is split into train and test sets using the train_test_split method.
 
 ### ⚡Model training and evaluation
-- Using sklearn to train the model on the training data set and testing on the test data set.
+- Using sklearn to train the model on the training dataset and testing on the test dataset.
 - Metrics used: RMSE for evaluation of the model.
 
 
