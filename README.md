@@ -1,5 +1,5 @@
 # House Price Prediction
-A regression based project for predicting house 🏠 price💲.
+A Regression based project for predicting house 🏠 price💲.
 
 ## Project objective
 The purpose of this project is to study the relationship between different factors(dependent variables) that influence the price(target variable) of houses in India and predict house price using different Machine Learning algorithms.
